@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Farsan&family=Raleway:wght@300;500&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&family=Roboto:wght@100&display=swap');
+body{
+    background-color: black;
+    margin: 0;
+    border: 0;
+    color: #ffffff;
+    text-align: center;
+    font-family: Raleway;
+}
+
+header h1{
+font-size: 4rem;
+font-weight: 500;
+opacity: 100%;
+font-family: Raleway, Medium
+}
+
+header img{
+    width: 100%;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 45px;
+
+}
+.parrafo{
+    text-align: left;
+    font-size: 1rem;
+    opacity: 100%;
+    padding-right: 9rem;
+    font-family: Raleway, Light;
+    
+    
+}
+
+.contenido img{
+    margin: auto;
+    width: 33rem;
+    height: 20rem;
+    padding: 1rem;
+}
+
+.caracteristicas{
+    background-color: #1E1A13;
+    padding-top: 6rem;
+}
+.caracteristicas h2{
+    text-align: center;
+    font-weight: 100;
+    font-size: 3.3rem;
+    font-family: Raleway, Medium;
+}
+.iconos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    gap: 1.2rem;
+    font-size: 1.5rem;
+
+}
+
+.gallery{
+display: flex;
+padding: 5.6rem;
+}
+
+.gallery img{
+width: 89%;
+}
+
+footer{
+    background-color: #1E1A13;
+    margin: auto;
+    padding: 1rem;
+}
+
+footer a,p{
+    text-decoration: none;
+    color: #f7f9f9;
+
+
+}
+
+footer a:hover{
+    color:darkgreen
+}
